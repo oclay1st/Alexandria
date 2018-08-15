@@ -1,5 +1,6 @@
-#enviroment
+# Environments
 .env
+
 # client
 client/node_modules
 client/build
@@ -16,4 +17,3 @@ backend/alexandria/whoosh_index
 # editors
 .idea/
 .vscode
-
