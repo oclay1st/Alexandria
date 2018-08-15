@@ -1,0 +1,19 @@
+#enviroment
+.env
+# client
+client/node_modules
+client/build
+client/npm-debug.log
+
+# alexandria
+backend/alexandria/alexandria.db
+backend/alexandria/logs/*
+**/*.pyc
+backend/tests/.cache
+backend/tests/resources
+backend/alexandria/whoosh_index
+
+# editors
+.idea/
+.vscode
+

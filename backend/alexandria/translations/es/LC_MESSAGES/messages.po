@@ -1,0 +1,140 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-07-22 14:46-0400\n"
+"PO-Revision-Date: 2017-07-22 15:00-0400\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../project/modules/core/serializers.py:28
+#: ../project/modules/core/serializers.py:53
+msgid "This field is required"
+msgstr "Este campo es requerido"
+
+#: ../project/modules/core/serializers.py:47
+msgid "Almost one field: author or title"
+msgstr "Al menos un campo: autor o titulo"
+
+#: ../project/modules/core/serializers.py:62
+msgid "This param is required"
+msgstr ""
+
+#: ../project/modules/core/serializers.py:76
+msgid "Field must between 1 and 10"
+msgstr "El campo tiene que estar entre 1 y 10"
+
+#: ../project/modules/core/utils.py:57
+msgid "document modified success"
+msgstr ""
+
+#: ../project/modules/core/utils.py:58
+msgid "permission denied"
+msgstr ""
+
+#: ../project/modules/core/utils.py:76
+msgid "the document was added to favorites"
+msgstr ""
+
+#: ../project/modules/core/utils.py:77
+msgid "the document is already part of yours favorites"
+msgstr ""
+
+#: ../project/modules/core/utils.py:86
+msgid "document removed from favorites"
+msgstr ""
+
+#: ../project/modules/core/utils.py:87
+msgid "document is not present in yours favorite documents"
+msgstr ""
+
+#: ../project/modules/core/utils.py:110
+msgid "success upload"
+msgstr ""
+
+#: ../project/modules/core/utils.py:112
+msgid "name of document has errors"
+msgstr ""
+
+#: ../project/modules/security/models.py:18
+msgid "Admin"
+msgstr ""
+
+#: ../project/modules/security/models.py:18
+msgid "Contributor"
+msgstr ""
+
+#: ../project/modules/security/models.py:18
+msgid "Moderator"
+msgstr ""
+
+#: ../project/modules/security/serializers.py:18
+msgid "Field cannot have lower than 8 characters"
+msgstr ""
+
+#: ../project/modules/security/serializers.py:20
+msgid "Field cannot have lower than 5 characters"
+msgstr ""
+
+#: ../project/modules/security/serializers.py:25
+msgid "User already exist"
+msgstr ""
+
+#: ../project/modules/security/serializers.py:32
+#: ../project/modules/security/serializers.py:37
+#: ../project/modules/security/serializers.py:47
+#: ../project/modules/security/serializers.py:68
+#: ../project/modules/security/serializers.py:88
+msgid "This filed is required"
+msgstr ""
+
+#: ../project/modules/security/utils.py:34
+msgid "Bad username or password"
+msgstr ""
+
+#: ../project/modules/security/utils.py:54
+msgid "Profile changed"
+msgstr ""
+
+#: ../project/modules/security/utils.py:58
+msgid "The image name has errors"
+msgstr ""
+
+#: ../project/modules/security/utils.py:69
+msgid "wait for account activation"
+msgstr ""
+
+#: ../project/modules/security/utils.py:84
+#: ../project/modules/security/utils.py:98
+msgid "We send you an email, please check it"
+msgstr ""
+
+#: ../project/modules/security/utils.py:86
+msgid ""
+"We has some problem with the email server,and your account will be "
+"activate manually"
+msgstr ""
+
+#: ../project/modules/security/utils.py:91
+msgid "Confirm your email"
+msgstr ""
+
+#: ../project/modules/security/utils.py:100
+msgid "We has some problem with the email server"
+msgstr ""
+
+#: ../project/modules/security/utils.py:109
+msgid "Registration successful"
+msgstr ""

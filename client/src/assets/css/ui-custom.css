@@ -1,0 +1,272 @@
+body {
+    /* font-family: 'Open Sans Light'; */
+    font-size: 14px;
+    color: #000;
+    padding-top:50px;
+    padding-bottom: 20px;
+    outline: 0 none;
+    /*background-color: darkblue;*/
+
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+.el-input--small{
+    font-size: 14px;
+}
+.el-form-item{
+    margin-bottom: 10px;
+}
+.el-menu--horizontal li{
+    font-family:  sans-serif;
+    font-size: 14px;
+}
+.ui-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    position: fixed;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+/*navbar configuration*/
+.el-menu--horizontal .el-menu-item.is-active,
+.el-menu--horizontal .el-menu-item.is-active:hover {
+    border-bottom: 2px solid #20a0ff;
+}
+
+.el-menu--horizontal {
+    background: #ffffff;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
+}
+
+.el-menu--horizontal .el-menu-item {
+    border-bottom: 2px solid transparent;
+    margin: 0 2px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.el-menu--horizontal .el-menu-item.brand:hover,
+.el-menu--horizontal .brand,
+.el-menu--horizontal .is-active.brand {
+    border-color: transparent;
+    /*color: transparent;*/
+}
+
+.el-menu--horizontal .el-menu-item:hover {
+    border-bottom: 2px solid rgba(44, 139, 237, 0.55);
+    margin: 0 2px;
+    background-color: #ffffff;
+}
+
+.el-menu--horizontal .el-menu-item, .el-submenu__title {
+    padding: 0 15px;
+}
+/*end navbar configuration*/
+
+
+
+/**carousel config**/
+.core-carousel{
+    margin: 40px auto;
+    max-width: 700px;
+}
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+  }
+
+  .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+  }
+
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+  }
+
+  /*end carousel*/
+
+  .image-home{
+	margin-bottom: 230px; 
+}
+.auth-logo{
+	margin: 0 auto 20px;
+	height: 70px;
+	width: 70px;
+	border: 1px solid red;
+}
+
+.auth-login{
+	max-width: 360px;
+	margin: 120px auto;
+}
+.card:first-child {
+    background: rgb(250, 250, 250) none repeat scroll 0 0;
+    border-radius: 2px 2px 0 0;
+    height: 8px;
+    margin: 0 8px;
+    padding: 0;
+}
+.card {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-sizing: border-box;
+    padding: 35px 30px 40px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.navbar-nav > li > a:hover {
+    box-shadow: 0 -2px 0 #575b67 inset;
+}
+.active-nav{
+    color: #333333;
+    background-color: transparent;
+    box-shadow: 0 -2px 0 #575b67 inset;
+}
+
+.navbar{margin-bottom: 20px; }
+
+.container-limited{
+    max-width: 1200px;
+}
+
+.center-pagination {
+    text-align: center;
+    margin: 0;
+    margin-top: 0;
+}
+.pagination > li > a, .pagination > li > span{
+    padding: 4px 12px;
+}
+
+a.first::after {
+  content:'...'
+}
+
+a.last::before {
+  content:'...'
+}
+.pagination a{
+    cursor:pointer;
+}
+
+
+#backtop {
+            left:auto;
+            top:auto;
+            outline: none;
+            overflow:hidden;
+            color:#fff;
+            text-align:center;
+            height:40px;
+            width:40px;
+            line-height:40px;
+            font-size:14px;
+            cursor:pointer;
+            z-index:999999;
+
+                background-color: #58b7ff;
+      position: fixed;
+      right: 100px;
+      bottom: 150px;
+      size: 50px;
+      border-radius: 25px;
+      cursor: pointer;
+      opacity: 0.4;
+      transition: .3s;
+            opacity:1;
+            display:none;
+        }
+        #backtop:hover {
+            background-color:#27CFC3;
+        }
+        #backtop.mcOut {
+            opacity:0;
+        }  
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 700px;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #d1dbe5;
+    box-shadow: 0 2px 4px rgba(0,0,0,.12), 0 0 6px rgba(0,0,0,.12);  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
