@@ -42,5 +42,5 @@ SQLAlchemy-Utils==0.32.14
 stevedore==1.26.0
 urllib3==1.21.1
 webargs==1.5.3
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 Whoosh==2.7.4
