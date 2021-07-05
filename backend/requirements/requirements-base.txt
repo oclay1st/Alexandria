@@ -2,7 +2,7 @@ elasticsearch-dsl==7.1.0
 eventlet==0.25.1
 Flask==1.1.1
 Flask-Babel==1.0.0
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 Flask-DotEnv==0.1.2
 Flask-Elasticsearch==0.2.5
 Flask-JWT-Extended==1.1.0
